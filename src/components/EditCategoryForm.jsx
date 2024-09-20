@@ -40,8 +40,6 @@ const EditCategoryForm = ({
 
     let categoryData = Object.values(response.results);
     setCategoryList(categoryData);
-
-    setCategoryName("");
     setEditCategoryId("");
   };
 
