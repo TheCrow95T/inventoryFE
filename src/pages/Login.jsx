@@ -21,6 +21,8 @@ const Login = ({ setUser }) => {
     if (response) {
       setUser(response);
       navigate("/");
+    } else {
+      alert("Wrong username or password");
     }
 
     // Reset form fields
