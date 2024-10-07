@@ -96,7 +96,7 @@ const CreateUserForm = ({
           />
         </div>
         <button type="submit">Create</button>
-        <button onClick={()=>setCreateUserForm(false)}>Close</button>
+        <button onClick={() => setCreateUserForm(false)}>Close</button>
       </form>
     </>
   );
